@@ -1,12 +1,9 @@
-function Header() {
+export const Header = () => {
     return (
-      <div>
-          <ul>
-              <li><a href="">Home</a></li>
-              <li><a href="">About</a></li>
-              <li><a href="">Login</a></li>
-          </ul>
-      </div>
+        <div className="header">
+            <div><a href="">Home</a></div>
+            <div><a href="">About</a></div>
+            <div><a href="">Login</a></div>
+        </div>
     );
 }
-export default Header;
