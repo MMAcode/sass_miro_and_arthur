@@ -1,8 +1,8 @@
-export const BlogsWrapper = () => {
+export const BlogsWrapper = (props) => {
     return (
-        <div>
-            <p>ahoj</p>
-            <p>ahoj2</p>
+        <div className="blogsWrapper">
+            <h1>Articles</h1>
+            {props.children}
         </div>
     );
 }

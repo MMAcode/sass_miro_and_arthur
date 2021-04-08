@@ -1,3 +1,28 @@
+.header {
+  display: flex;
+}
 
+.blogsWrapper {
+  background-color: yellowgreen;
+  margin: 20px;
+  padding: 30px;
+}
+
+.blog {
+  background-color: yellow;
+  margin: 20px;
+  padding: 30px;
+  padding-top: 15px;
+}
+.blog h1, .blog h2, .blog h3, .blog h4, .blog h5, .blog article {
+  text-align: left;
+}
+
+.date {
+  text-align: right;
+  margin: 0;
+  font-style: italic;
+  color: gray;
+}
 
 /*# sourceMappingURL=style.css.map */
