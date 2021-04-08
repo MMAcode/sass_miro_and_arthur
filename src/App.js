@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import './css/style.css';
 import MainWrapper from "./components/MainWrapper";
+import Header from "./components/Header";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         {/*</a>*/}
       </header>
         <body>
+        <Header/>
         <MainWrapper/>
         </body>
 
