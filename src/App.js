@@ -2,7 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import './css/style.css';
 import MainWrapper from "./components/MainWrapper";
-import Header from "./components/Header";
+import {Header} from "./components/Header";
+import {BlogsWrapper} from "./components/BlogsWrapper";
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
       </header>
         <body>
         <Header/>
-        <MainWrapper/>
+        <BlogsWrapper/>
         </body>
 
     </div>
