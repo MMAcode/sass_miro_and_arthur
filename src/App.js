@@ -1,9 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
 import './css/style.css';
 import {Header} from "./components/Header";
 import {BlogsWrapper} from "./components/BlogsWrapper";
 import {Blog} from "./components/Blog";
+import {Blog_SassIntro} from "./components/blogs/Blog_SassIntro";
+import {Blog_GitCoop} from "./components/blogs/Blog_GitCoop";
 
 function App() {
   return (
@@ -18,10 +19,14 @@ function App() {
                 of independent components - so that each React file should have it's own sass file. And some styles should be shared and some should be independent.
                 The question is how much af a reusable components do we want to have... I guess</article>
             </Blog>
+
+            <Blog_SassIntro/>
+            <Blog_GitCoop/>
             <Blog>
                 <h2>Blog title</h2>
                 <article>blog text</article>
             </Blog>
+
         </BlogsWrapper>
         </body>
 

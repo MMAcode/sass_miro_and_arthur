@@ -1,3 +1,22 @@
+@use "sass:map";
+
+$colors:(
+red:red,
+blue:blue,
+green:green,
+gray:gray,
+orange:orange
+);
+
+@each $name, $value in $colors {
+  .T#{$name} {
+    color: $value;
+  }
+  .B#{$name} {
+    background-color: $value;
+  }
+}
+
 *{
   //background-color: blue;
 }
@@ -7,14 +26,15 @@
 }
 
 .blogsWrapper{
-  background-color: yellowgreen;
-  margin:20px;
+  //background-color: yellowgreen;
+  //margin:20px;
   padding:30px;
+  //border: lightblue dotted;
 }
 
 .blog{
-  background-color: yellow;
-  margin:20px;
+  background-color: lightblue;
+  margin:80px 10px;
   padding:30px;
   padding-top:15px;
 
@@ -31,3 +51,5 @@
     p{line-height: 0.7;}
   }
 }
+
+

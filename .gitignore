@@ -20,10 +20,9 @@
 
 npm-debug.log*
 yarn-debug.log*
-yarn-error.log*git
+yarn-error.log*
 
 .idea
 
 src/css/style.css
 src/css/style.css.map
-

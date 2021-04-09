@@ -8,6 +8,7 @@ export const Blog = (props) => {
 
             {props.children}
 
+
         </div>
     );
 }
