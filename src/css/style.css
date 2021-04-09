@@ -1,16 +1,54 @@
+.Tred {
+  color: red;
+}
+
+.Bred {
+  background-color: red;
+}
+
+.Tblue {
+  color: blue;
+}
+
+.Bblue {
+  background-color: blue;
+}
+
+.Tgreen {
+  color: green;
+}
+
+.Bgreen {
+  background-color: green;
+}
+
+.Tgray {
+  color: gray;
+}
+
+.Bgray {
+  background-color: gray;
+}
+
+.Torange {
+  color: orange;
+}
+
+.Borange {
+  background-color: orange;
+}
+
 .header {
   display: flex;
 }
 
 .blogsWrapper {
-  background-color: yellowgreen;
-  margin: 20px;
   padding: 30px;
 }
 
 .blog {
-  background-color: yellow;
-  margin: 20px;
+  background-color: lightblue;
+  margin: 80px 10px;
   padding: 30px;
   padding-top: 15px;
 }
