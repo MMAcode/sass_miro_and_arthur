@@ -2,7 +2,7 @@ export const Blog = (props) => {
     return (
         <div className="blog">
             <div className="blogHeader">
-                <p>Published: {new Date().toLocaleDateString()}</p>
+                <p>Published: {props.date ? props.date : new Date().toLocaleDateString()}</p>
                 <p>by: {props.author ? props.author : "unknown"}</p>
             </div>
 

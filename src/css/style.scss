@@ -1,11 +1,11 @@
 @use "sass:map";
 
 $colors:(
-red:red,
-blue:blue,
-green:green,
-gray:gray,
-orange:orange
+"red":red,
+"blue":blue,
+"green":green,
+"gray":gray,
+"orange":orange
 );
 
 @each $name, $value in $colors {
@@ -33,7 +33,8 @@ orange:orange
 }
 
 .blog{
-  background-color: lightblue;
+  background-color: lightgray;
+  box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.28);
   margin:80px 10px;
   padding:30px;
   padding-top:15px;
@@ -52,4 +53,20 @@ orange:orange
   }
 }
 
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+
+  >* {
+    margin: 20px;
+    padding: 5px;
+    //border: #282c34 3px solid;
+    background-color: black;
+    color: white;
+  }
+}
+
+.center{
+  text-align: center;
+}
 

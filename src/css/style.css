@@ -47,7 +47,8 @@
 }
 
 .blog {
-  background-color: lightblue;
+  background-color: lightgray;
+  box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.28);
   margin: 80px 10px;
   padding: 30px;
   padding-top: 15px;
@@ -64,6 +65,21 @@
 }
 .blog .blogHeader p {
   line-height: 0.7;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex > * {
+  margin: 20px;
+  padding: 5px;
+  background-color: black;
+  color: white;
+}
+
+.center {
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
