@@ -23,4 +23,6 @@ yarn-debug.log*
 yarn-error.log*
 
 .idea
-/css/*.css
+
+src/css/style.css
+src/css/style.css.map
