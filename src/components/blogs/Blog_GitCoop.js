@@ -3,7 +3,7 @@ import {Blog} from "../Blog";
 export const Blog_GitCoop = () => {
     return (
         <Blog author="Miroslav">
-            <h2>Steps to synchronise git branches</h2>
+            <h2>Steps to synchronise git branches - rough guide</h2>
             <article>
                 $ git checkout main
                 <br/>
@@ -17,7 +17,10 @@ export const Blog_GitCoop = () => {
                 <br/>$ git push
                 <br/>
                 <br/>$ git checkout miro
-
+                <br/>
+                <br/>
+                <br/> to deploy changes to gh-pages: npm run deploy
+                <br/>
             </article>
         </Blog>
     )
