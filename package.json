@@ -13,7 +13,7 @@
   },
   "scripts": {
     "start": "react-scripts start ; npm run startSass",
-    "watchSassFile":"sass src/css/style.scss src/css/style.css --watch",
+    "watchSassFile": "sass src/css/style.scss src/css/style.css --watch",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
