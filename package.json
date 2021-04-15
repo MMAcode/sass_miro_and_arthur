@@ -13,7 +13,7 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
-    "start": "react-scripts start ; npm run startSass",
+    "start": "react-scripts start",
     "watchSassFile": "sass src/css/style.scss src/css/style.css --watch",
     "build": "react-scripts build",
     "predeploy": "npm run build",
