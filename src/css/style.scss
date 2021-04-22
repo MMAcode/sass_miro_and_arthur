@@ -70,3 +70,31 @@ $colors:(
   text-align: center;
 }
 
+.header {
+  display: flex;
+  background: #fafafa;
+  height: 60px;
+  align-items: center;
+  padding: 20px;
+
+  a {
+    margin-right: 15px;
+    text-decoration: none;
+  }
+}
+a {
+  color: black;
+}
+.logo {
+  margin-right: auto;
+  font-weight: bold;
+  font-size: 20px;
+}
+.btn {
+  background: blue;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
