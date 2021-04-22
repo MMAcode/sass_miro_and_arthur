@@ -33,9 +33,11 @@ $colors:(
 }
 
 .blog{
-  background-color: lightgray;
+  background: rgb(14,212,252);
+  background: linear-gradient(153deg, rgba(14,212,252,1) 2%, rgba(157,238,255,1) 100%);;
   box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.28);
-  margin:80px 10px;
+  margin:10% 10%;
+  border-radius: 20px 0 20px 0;
   padding:30px;
   padding-top:15px;
 
@@ -58,6 +60,9 @@ $colors:(
     font-style: italic;
     color: gray;
     p{line-height: 0.7;}
+  }
+  .blogMain{
+    margin-bottom: 40px;
   }
 }
 

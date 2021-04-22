@@ -47,9 +47,11 @@
 }
 
 .blog {
-  background-color: lightgray;
+  background: #0ed4fc;
+  background: linear-gradient(153deg, #0ed4fc 2%, #9deeff 100%);
   box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.28);
-  margin: 80px 10px;
+  margin: 10% 10%;
+  border-radius: 20px 0 20px 0;
   padding: 30px;
   padding-top: 15px;
 }
@@ -73,6 +75,9 @@
 .blog .blogHeader p {
   line-height: 0.7;
 }
+.blog .blogMain {
+  margin-bottom: 40px;
+}
 
 .flex {
   display: flex;
@@ -92,6 +97,37 @@
 .accessibilityImg {
   width: 100%;
   max-width: 800px;
+}
+
+.header {
+  display: flex;
+  background: #fafafa;
+  height: 60px;
+  align-items: center;
+  padding: 20px;
+}
+.header a {
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+a {
+  color: black;
+}
+
+.logo {
+  margin-right: auto;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.btn-primary {
+  background: blue;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  text-decoration: none;
+  border: none;
 }
 
 /*# sourceMappingURL=style.css.map */

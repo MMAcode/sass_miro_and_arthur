@@ -4,10 +4,10 @@ import m2 from "../../images/map_2.png"
 import m3 from "../../images/map_3.png"
 import m4 from "../../images/map_4.png"
 
-export const Blog_SassMaps = () => {
+export const Blog_SassMaps = ({tabIndexForBlog}) => {
     return (
-        <Blog author="Miroslav" date="06/04/2021">
-            <h2>Sass maps - How to generate class names from variables.</h2>
+        <Blog author="Miroslav" date="06/04/2021" tabIndexForBlog={tabIndexForBlog}
+              title="Sass maps - How to generate class names from variables">
             <article>
                 <ol className="flex">
                     <li>

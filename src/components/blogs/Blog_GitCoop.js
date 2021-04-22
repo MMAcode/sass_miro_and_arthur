@@ -1,9 +1,9 @@
 import {Blog} from "../Blog";
 
-export const Blog_GitCoop = () => {
+export const Blog_GitCoop = ({tabIndexForBlog}) => {
     return (
-        <Blog author="Miroslav">
-            <h2>Steps to synchronise git branches - rough guide</h2>
+        <Blog author="Miroslav" tabIndexForBlog={tabIndexForBlog}
+              title="Steps to synchronise git branches - rough guide">>
             <article>
                 $ git checkout main
                 <br/>

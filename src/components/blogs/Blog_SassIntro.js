@@ -1,9 +1,9 @@
 import {Blog} from "../Blog";
 
-export const Blog_SassIntro = ()=> {
+export const Blog_SassIntro = ({tabIndexForBlog})=> {
     return (
-        <Blog author="Miroslav">
-            <h2>Sass intro / mapping / overview </h2>
+        <Blog author="Miroslav"  tabIndexForBlog={tabIndexForBlog}
+              title="Sass intro / mapping / overview">
             <article>
                 <p>Sass can do many great things. Here we will learn some of them.</p>
 
