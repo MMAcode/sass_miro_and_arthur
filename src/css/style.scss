@@ -58,7 +58,7 @@ $colors:(
     margin:0;
     padding: 0;
     font-style: italic;
-    color: gray;
+    color: black;
     p{line-height: 0.7;}
   }
   .blogMain{
@@ -93,14 +93,18 @@ $colors:(
   height: 60px;
   align-items: center;
   padding: 20px;
+  font-size: 20px;
 
   a {
-    margin-right: 15px;
+    margin-right: 30px;
     text-decoration: none;
   }
 }
 a {
   color: black;
+}
+a:hover {
+  text-decoration: underline;
 }
 .logo {
   margin-right: auto;
@@ -111,8 +115,13 @@ a {
   background: blue;
   color: white;
   padding: 8px 16px;
-  border-radius: 20px;
   text-decoration: none;
   border: none;
+  font-size: 20px;
+  box-shadow: 5px 5px lightblue;
+}
+button:hover {
+  background: cornflowerblue;
+  cursor: pointer;
 }
 
