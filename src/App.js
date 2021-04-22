@@ -6,7 +6,8 @@ import {Blog} from "./components/Blog";
 import {Blog_SassIntro} from "./components/blogs/Blog_SassIntro";
 import {Blog_GitCoop} from "./components/blogs/Blog_GitCoop";
 import {Blog_SassMaps} from "./components/blogs/Blog_SassMaps";
-import {Blog_Accessibility} from "./components/blogs/Blog_Accessibility";
+import {Blog_AccessibilityGuidelines} from "./components/blogs/Blog_AccessibilityGuidelines";
+import {Blog_AccessibilityOurImplementation} from "./components/blogs/Blog_AccessibilityOurImplementation";
 
 function App() {
   return (
@@ -15,7 +16,9 @@ function App() {
         <body>
         <Header/>
         <BlogsWrapper>
-            <Blog_Accessibility/>
+            <Blog_AccessibilityOurImplementation/>
+            <Blog_AccessibilityGuidelines/>
+
             <Blog author="Miro">
                 <h2>Does React and Sass have different purpose?</h2>
                 <article>I am not sure in React ans Sass are good friends as Sass is ment to style the whole scope, the whole project, but the idea behind react is to have kind
