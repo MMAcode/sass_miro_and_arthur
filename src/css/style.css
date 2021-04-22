@@ -53,7 +53,14 @@
   padding: 30px;
   padding-top: 15px;
 }
-.blog h1, .blog h2, .blog h3, .blog h4, .blog h5, .blog article {
+.blog article {
+  overflow: auto;
+  max-height: 100vh;
+}
+.blog h1, .blog h2 {
+  text-align: center;
+}
+.blog h3, .blog h4, .blog h5, .blog article {
   text-align: left;
 }
 .blog .blogHeader {
@@ -79,7 +86,12 @@
 }
 
 .center {
-  text-align: center;
+  text-align: center !important;
+}
+
+.accessibilityImg {
+  width: 100%;
+  max-width: 800px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -39,7 +39,15 @@ $colors:(
   padding:30px;
   padding-top:15px;
 
-  h1,h2,h3,h4,h5, article{
+  article {
+    overflow: auto;
+    max-height: 100vh;
+  }
+
+  h1,h2 {
+    text-align: center;
+  }
+  h3,h4,h5, article{
     text-align: left;
   }
 
@@ -67,6 +75,10 @@ $colors:(
 }
 
 .center{
-  text-align: center;
+  text-align: center !important;
 }
 
+.accessibilityImg {
+  width: 100%;
+  max-width: 800px;
+}
