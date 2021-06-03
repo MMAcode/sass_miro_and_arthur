@@ -8,6 +8,7 @@ import {Blog_GitCoop} from "./components/blogs/Blog_GitCoop";
 import {Blog_SassMaps} from "./components/blogs/Blog_SassMaps";
 import {Blog_AccessibilityGuidelines} from "./components/blogs/Blog_AccessibilityGuidelines";
 import {Blog_AccessibilityOurImplementation} from "./components/blogs/Blog_AccessibilityOurImplementation";
+import { Blog_Responsive } from "./components/blogs/Blog_Responsive";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <body>
         <Header/>
         <BlogsWrapper>
+            <Blog_Responsive/>
             <Blog_AccessibilityOurImplementation/>
             <Blog_AccessibilityGuidelines/>
             <Blog author="Miro"
