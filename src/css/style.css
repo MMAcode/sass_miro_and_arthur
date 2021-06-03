@@ -52,7 +52,7 @@ html {
   box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.28);
   margin: 10% 10%;
   border-radius: 20px 0 20px 0;
-  padding: 10px;
+  padding: 5vw;
   padding-top: 15px;
 }
 .blog article {
@@ -153,20 +153,8 @@ button:hover {
     margin: 2vw;
   }
 }
-#responsive.blog {
-  background: palegoldenrod;
-  box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.28);
-  border-radius: 20px 0 20px 0;
-  padding: 1em;
-  padding-top: 2rem;
-}
-#responsive.blog article {
-  overflow: auto;
-  max-height: 100vh;
-}
 #responsive.blog h2 {
-  text-align: center;
-  color: blueviolet;
+  color: red;
   font-size: 2rem;
 }
 #responsive.blog #fullyResponsiveTitle {
@@ -174,19 +162,6 @@ button:hover {
 }
 #responsive.blog #fullyResponsiveText {
   font-size: 2vw;
-}
-#responsive.blog .blogHeader {
-  text-align: right;
-  margin: 0;
-  padding: 0;
-  font-style: italic;
-  color: black;
-}
-#responsive.blog .blogHeader p {
-  line-height: 0.7;
-}
-#responsive.blog .blogMain {
-  margin-bottom: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
