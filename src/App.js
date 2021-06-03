@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
       {/*<header className="App-header">*/}
-        <body>
+        <div>
         <Header/>
         <BlogsWrapper>
             <Blog_Responsive/>
@@ -34,7 +34,7 @@ function App() {
             </Blog>
 
         </BlogsWrapper>
-        </body>
+        </div>
 
     </div>
   );

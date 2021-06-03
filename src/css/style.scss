@@ -58,6 +58,9 @@ html{
   h3,h4,h5, article{
     text-align: left;
   }
+  article,p{
+    font-size: 20px;
+  }
 
   .blogHeader{
     text-align: right;
@@ -133,8 +136,8 @@ button:hover {
 
 @media (max-width: 700px){
   html {
-    font-size: 10px;
-    background: lightgoldenrodyellow;
+    font-size: 15px;
+    background: #c6f56a;
   }
   #responsive.blog{
     margin:2vw;
@@ -160,6 +163,11 @@ button:hover {
       color: red;
       font-size: 2rem;
     }
+
+    article,p{
+      font-size: 1rem;
+    }
+
     #fullyResponsiveTitle{
       font-size: 5vw;
     }
