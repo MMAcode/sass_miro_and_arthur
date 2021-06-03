@@ -14,6 +14,10 @@ export const Blog_Responsive = ({tabIndexForBlog}) => {
                 <p><strong>Title/h2 of this article</strong> is using responsive "rem" units (h2=2rem). Notice that when the screen width changes across the 'breaking point' of 700px width, sizes of titles of other articles stay the same, but size of title of this article changes. This is due to the implemented 'rem' units. The actual size of this title/h2 is determined by current default size. Since we changed that size from orignal 20px to 10px, also all elements using rem units will change - will be halved. </p>
                 <p>(You may also notice that <strong>normal text</strong> size changes. Since we didn't define any specific size for 'article' or 'p' tags, it is using default 20px for big screen and 10px for small.)</p>
                 <p>This behaviour is implemented for demonstration purposes. Alternative/possibly better solution would be to make all/most of the elements use rem and other flexible units from the beginning.</p>
+                <div style={{background:'lightGray', padding:'10px'}}>
+                <h2 id="fullyResponsiveTitle">Fully responsive title</h2>
+                <p id="fullyResponsiveText">For example this title and text are using vw (view width) units.</p>
+                </div>
             </article>
         </Blog>
     )

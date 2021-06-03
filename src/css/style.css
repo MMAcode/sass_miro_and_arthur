@@ -170,6 +170,12 @@ button:hover {
   color: blueviolet;
   font-size: 2rem;
 }
+#responsive.blog #fullyResponsiveTitle {
+  font-size: 5vw;
+}
+#responsive.blog #fullyResponsiveText {
+  font-size: 2vw;
+}
 #responsive.blog .blogHeader {
   text-align: right;
   margin: 0;
