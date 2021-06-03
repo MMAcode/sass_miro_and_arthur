@@ -46,10 +46,6 @@ html {
   display: flex;
 }
 
-.blogsWrapper {
-  padding: 10px;
-}
-
 .blog {
   background: #0ed4fc;
   background: linear-gradient(153deg, #0ed4fc 2%, #9deeff 100%);
@@ -152,11 +148,14 @@ button:hover {
     font-size: 10px;
     background: lightgoldenrodyellow;
   }
+
+  #responsive.blog {
+    margin: 2vw;
+  }
 }
 #responsive.blog {
   background: palegoldenrod;
   box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.28);
-  margin: 2rem;
   border-radius: 20px 0 20px 0;
   padding: 1em;
   padding-top: 2rem;

@@ -32,7 +32,7 @@ html{
 .blogsWrapper{
   //background-color: yellowgreen;
   //margin:20px;
-  padding:10px;
+  //padding:10px;
   //border: lightblue dotted;
 }
 
@@ -136,13 +136,16 @@ button:hover {
     font-size: 10px;
     background: lightgoldenrodyellow;
   }
+  #responsive.blog{
+    margin:2vw;
+  }
 }
 
   #responsive.blog {
     background: palegoldenrod;
     //background: linear-gradient(153deg, rgba(14,212,252,1) 2%, rgba(157,238,255,1) 100%);;
     box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.28);
-    margin:2rem;
+    //margin:2rem;
     border-radius: 20px 0 20px 0;
     padding:1em;
     padding-top:2rem;
